@@ -32,13 +32,9 @@ document.body.onload = addSymptomName(i);
 }
 
 function addSymptomName(x) { 
-  // create a new div element 
-  // and give it some content 
   var newDiv = document.createElement("div"); 
   var newContent = document.createTextNode(symptoms.symptomObj[x].symptomName); 
-  newDiv.appendChild(newContent); //add the text node to the newly created div. 
-
-  // add the newly created element and its content into the DOM 
+  newDiv.appendChild(newContent); 
   var currentDiv = document.getElementById("symps"); 
   document.body.insertBefore(newDiv, currentDiv); 
 }

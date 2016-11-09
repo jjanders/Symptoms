@@ -22,92 +22,92 @@ symptomObj:[
 "symptomName":"Sensitivity to light",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" },
  { 
 "symptomName":"Sensitivity to noise",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Dizziness/vertigo",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
 { 
 "symptomName":"Slowed down",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"\"In a fog\"",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"\"Not right\"",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Difficulty concentration",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Memory difficulties",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Fatigued or low energy",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Confused",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Irritable",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Sad",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Nervous",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Anxious",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Drowsy",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Sleeping more than usual",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Sleeping less than usual",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Balance problems",
  "pre":false,
  "post":false, 
-"info":"" } 
+"info":"" }, 
  { 
 "symptomName":"Neck pain",
  "pre":false,

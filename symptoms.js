@@ -128,5 +128,5 @@ function addSymptomName(x) {
   var currentDiv = document.getElementById("symps"); 
   document.body.insertBefore(newDiv, currentDiv); 
 }
-localStorage.setItem("Results", symptoms);
+localStorage.setItem("Results", JSON.stringify(symptoms));
 document.getElementById("results").innerHTML=localStorage.getItem("Results");

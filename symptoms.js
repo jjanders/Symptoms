@@ -109,6 +109,11 @@ var createSummary = function(){
 				inputAll[k].checked = true;
 			}
  		}
+		 else if(inputAll[k].type == "text"){
+ 		 	if(localStorage.getItem(inputAll[k].id) != ""){
+ 		 		inputAll[k].value = localStorage.getItem(inputAll[k].id);
+ 		 	}
+ 		 }
  		inputAll[k].disabled = true;
  	}
 }

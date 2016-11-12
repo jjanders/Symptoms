@@ -37,8 +37,8 @@ for(i=0; i < JSONsrc["symptoms"]["symptomObj"].length; i++){
 	checkbox2.id = "post"+i;
 
 	var inputString = document.createElement('input');
-	inputString.type = 'string';
-	inputString.id = "string"+i;
+	inputString.type = 'text';
+	inputString.id = "text"+i;
 
 
 	td1.innerHTML = JSONsrc["symptoms"]["symptomObj"][i].symptomName;
@@ -66,11 +66,11 @@ for(i=0; i < JSONsrc["symptoms"]["symptomObj"].length; i++){
 var storeLocal = function(){
  var inputAll = document.querySelectorAll("input");
  	for(k = 0; k < inputAll.length; k++){
- 		if (inputAll[k].type=="checkbox"){
+ 		if (inputAll[k].type=='checkbox'){
  		   localStorage.setItem(inputAll[k].id,inputAll[k].checked);
  		} 		
- 		else if (inputAll[k].type=="string"){
- 		   localStorage.setItem(inputAll[k].id,inputAll[k].text);
+ 		else if (inputAll[k].type=='text'){
+ 		   localStorage.setItem(inputAll[k].id,inputAll[k].value);
  		}
  	}
 }
@@ -86,11 +86,11 @@ var restoreLocal = function(){
 				inputAll[k].checked = true;
 			}
  		}
- 		// else if(inputAll[k].type == "string"){
- 		// 	if(localStorage.getItem(inputAll[k].id) != ""){
- 		// 		inputAll[k].value = localStorage.getItem(inputAll[k].value);
- 		// 	}
- 		// }
+ 		 else if(inputAll[k].type == "text"){
+ 		 	if(localStorage.getItem(inputAll[k].id) != ""){
+ 		 		inputAll[k].value = localStorage.getItem(inputAll[k].id);
+ 		 	}
+ 		 }
  	}
 }
 

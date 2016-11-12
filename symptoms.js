@@ -106,6 +106,3 @@ document.getElementById("save").addEventListener("click",storeLocal);
 document.getElementById("check").addEventListener("click",restoreLocal);
 document.getElementById("clear").addEventListener("click",clearLocal);
 document.getElementById("summary").addEventListener("click",createSummary);
-document.getElementById("refresh").addEventListener("click",function(){
-	location.reload();
-});

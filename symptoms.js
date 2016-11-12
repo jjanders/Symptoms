@@ -99,23 +99,7 @@ var clearLocal = function(){
 }
 
 var createSummary = function(){
-	var inputAll = document.querySelectorAll("input");
-	 for(k = 0; k < inputAll.length; k++){
- 		if (inputAll[k].type=="checkbox"){
-			if(localStorage.getItem(inputAll[k].id) == "false"){
-				inputAll[k].checked = false;
-			}
-			else if(localStorage.getItem(inputAll[k].id) == "true"){
-				inputAll[k].checked = true;
-			}
- 		}
-		 if(inputAll[k].type == "text"){
- 		 	if(localStorage.getItem(inputAll[k].id) != ""){
- 		 		inputAll[k].value = localStorage.getItem(inputAll[k].id);
- 		 	}
- 		 }
- 		inputAll[k].disabled = true;
- 	}
+location.href = "summary.html";
 }
 
 document.getElementById("save").addEventListener("click",storeLocal);
